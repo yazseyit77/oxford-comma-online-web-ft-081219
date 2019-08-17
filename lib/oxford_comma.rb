@@ -13,5 +13,6 @@ def oxford_comma(array)
     result = array.join(", ")
     last = ", and " + last
     result = result + last
+    return result
   end
 end
